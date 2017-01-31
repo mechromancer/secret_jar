@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #f7cf3a;
+	font-family: 'Pangolin', cursive;
+}
+
+h1 {
+	text-align: center;
+	color: #583e87;
+}
+
+h2 {
+	text-align: center;
+	color: #583e87;
+	margin-bottom: 10px;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+.content {
+	background: url(images/unicorn-3.png) no-repeat;
+ 	padding-bottom: 60px;
+}
+
+.header {
+	height: 50px;
+	padding-bottom: 10px;
+	background-color: #583e87;
+	text-align: center;
+	border-bottom: 2px solid #a4a4a4;
+}
+
+.header img {
+	position: relative;
+	padding: none;
+	float: left;
+}
+
+.header span {
+	color: #f7cf3a;
+}
+
+.menu li {
+	display: inline;
+	color: #f7cf3a;
+}
+
+.menu li a:link {
+	color: #f7cf3a;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.menu li a:hover {
+	color: #f4833d;
+}
+
+.menu li a:visited {
+	color: #e8b8d0;
+}
+
+.menu li a:visited:hover{
+	color: #f4833d;
+}
+
+.promo-block {
+	height: 415px;
+	background: url(images/color.png) repeat-x;
+	border-bottom: 2px solid #a4a4a4;
+}
+
+.promo-block iframe {
+	margin-top: 50px;
+	margin-left: 30%;
+	width: 40%;
+}
+
+.middle-block {
+	height: 210px;
+	background-color: #fff;
+	padding: 10px;
+	border-bottom: 2px solid #a4a4a4;
+}
+
+.middle-block p {
+	margin-bottom: 10px;
+}
+
+.items-block {
+	height: 200px;
+	background: #f7cf3a;
+	border-bottom: 2px solid #a4a4a4;
+}
+
+.box {
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.box img {
+	position: relative;
+	float: right;
+}
+
+.item-box {
+	height: 250px;
+	width: 800px;
+	padding: 30px;
+	margin-left: 310px;
+	margin-bottom: 30px;
+	background: #fff;
+}
+
+.item-box:first-letter {
+	color: red;
+	font-size: 18pt;
+}
+
+.item-box img {
+	position: relative;
+	float: left;
+}
+
+.tchar {
+	height: 150px;
+	width: 100%;
+	text-align: center;
+	font-size: 10pt;
+	vertical-align: middle;
+	border-collapse: collapse;
+	border: 1px solid #ccc3bc;
+}
+
+.tchar thead {
+	background: #dedee1;
+	font-size: 12pt;
+}
+
+.td-style {
+	width: 20%;
+}
+
+.form-box {
+	width: 600px;
+    background-color: #fff;
+	margin: auto;
+}
+
+.box-contacts {
+	width: 600px;
+    background-color: #fff;
+	margin: auto;
+    padding: 30px;
+ }
+
+.contacts {
+    white-space: nowrap;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#email.hover{
+	background: #ccc3bc;
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+	background-color: #583e87;
+	text-align: center;
+	color: #f7cf3a;
+	border-top: 2px solid #a4a4a4;
+}
+
+
